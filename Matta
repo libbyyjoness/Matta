@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Whack-a-Manufacturing-Challenge</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Whack-a-Manufacturing-Challenge</h1>
+  <div id="game-board">
+    <div class="hole"><div class="character" data-type="worker"></div></div>
+    <div class="hole"><div class="character" data-type="machine"></div></div>
+    <div class="hole"><div class="character" data-type="worker"></div></div>
+    <div class="hole"><div class="character" data-type="machine"></div></div>
+    <div class="hole"><div class="character" data-type="worker"></div></div>
+    <div class="hole"><div class="character" data-type="machine"></div></div>
+  </div>
+  <p id="score">Score: 0</p>
+  <div id="message"></div>
+  <div id="congratulations" style="display: none;">Congratulations! You’ve tackled the challenges Matta is solving with AI copilots!</div>
+  <script src="script.js"></script>
+</body>
+</html>
